@@ -2,5 +2,6 @@
 
 Projet 4 OpenClassroom
 
-Ceci est le 4eme projet pour la formation Web Dévellopeur de OpenClassroom ou le but est d'améliorer un site web déjà existant afin de boosté son referencement SEO tout
-en courrigeant les erreurs de syntaxe que l'on pourrait y trouver. 
+Ceci est le 4eme projet pour la formation Web Dévelopeur de OpenClassroom.
+Ici nous avons un site fourni qui est fortement améliorable, d'un point de vue SEO, accesibilité et performance.
+Vous pourrez voir le comparatif entre l'avant et l'après.
