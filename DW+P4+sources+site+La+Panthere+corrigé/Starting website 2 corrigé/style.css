@@ -778,14 +778,6 @@ h4 {
     color: #F3976C!important;
 }
 
-.header-color-change {
-    color: 2E0E05!important;
-}
-
-h1 div.header-color-change {
-    color: 2E0E05!important;
-}
-
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
@@ -833,16 +825,15 @@ h1 div.header-color-change {
     background-image: url("img/image-de-presentation.webp");
 }
 
-p.text-center.darker-change {
+p.text-center.darker-change, 
+div.bloc-sm div.row .fa,
+p.text-center.white {
     color: #212121!important;
 }
 
-div.bloc-sm div.row .fa{
-    color: #212121!important;
-} 
-
 *:focus {
     border: black 3px solid;
+    animation: none;
 }
 
 
@@ -893,10 +884,8 @@ div.bloc-sm div.row .fa{
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+   
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -905,8 +894,6 @@ div.bloc-sm div.row .fa{
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1047,6 +1034,11 @@ div.bloc-sm div.row .fa{
         width: 180px;
         height: 320px;
     }
+
+    img.img-responsive.portfolio-thumb {
+        display: initial;
+        text-align: center;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1066,5 +1058,8 @@ div.bloc-sm div.row .fa{
         justify-content: space-between
     }
 
+    p {
+        font-size: 13px ;
+    }
     
 }
